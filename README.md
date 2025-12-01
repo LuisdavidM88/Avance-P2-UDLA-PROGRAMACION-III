@@ -1,4 +1,4 @@
-🛻📦 Sistema de Gestión de Pedidos y Flota – Programación III (UDLA)
+🛻💚 Gestión de Pedidos & Flota de Camiones – UDLA (Programación III)
 👥 Integrantes
 
 Luis Morales
@@ -7,49 +7,55 @@ Emily Mullo
 
 Lucas Karlsson
 
-Johan Gamboa
+José Tituaña
 
-📘 Descripción del Proyecto
+🚀 Descripción del Proyecto
 
-Este proyecto implementa un sistema de gestión de pedidos de recolección y el control de una flota de camiones, desarrollado en Java con interfaz gráfica Swing.
+Este proyecto es una aplicación desarrollada en Java + Swing que permite gestionar:
 
-El programa permite administrar pedidos de clientes, registrar camiones, ordenarlos por distintos criterios y gestionar la “cola de salida” para el despacho. Incluye validación de datos, estructuras de datos (listas, colas, pilas) y algoritmos como búsqueda binaria, recursividad, bubble sort e insertion sort.
+🟦 Pedidos de recolección hechos por clientes
 
-🚀 Características Principales
-🟦 Gestión de Pedidos
+🟩 Flota de camiones encargados de atender esos pedidos
+
+Incluye validación de datos, algoritmos de ordenamiento, búsqueda binaria, estructuras dinámicas y una interfaz gráfica intuitiva que organiza todo por módulos.
+
+⚙️ Funcionalidades Principales
+🔵 Módulo de Pedidos
 
 Registrar nuevos pedidos
 
-Editar pedidos existentes
+Editar información existente
 
-Mostrar lista de pedidos
+Mostrar listado general
 
-Calcular peso total por tipo de material (recursivo)
+Calcular peso total por material (recursivo)
 
-Mostrar el siguiente pedido en cola
+Siguiente pedido en cola (FIFO)
 
-Validación completa de: ID, cliente, dirección, peso, material y estado
+Validación estricta de datos (ID, nombre, celular, dirección, peso)
 
-🟩 Gestión de Camiones
+🟢 Módulo de Camiones
 
-Registrar camiones
+Registrar y editar camiones
 
-Editar información del camión
-
-Ordenar por:
+Ordenar la flota por:
 
 ID (Bubble Sort)
 
 Capacidad (Insertion Sort)
 
-Año de fabricación (Insertion Sort descendente)
+Año (Insertion Sort Desc)
 
-Enviar camiones a ruta (cola de salida FIFO)
+Enviar camiones a ruta (cola de salida)
 
-Atender (despachar) el siguiente camión
+Despachar el siguiente camión
 
-🖥 Interfaz Gráfica (Swing)
+🖥️ Interfaz Gráfica
 
-Uso de JTabbedPane, JList, JComboBox, JSpinner, JOptionPane
+Múltiples pestañas (JTabbedPane)
 
-Separación en módulos para facilitar la navegación
+Listas dinámicas
+
+Spinners, combos y validación visual
+
+Mensajes interactivos con JOptionPane
