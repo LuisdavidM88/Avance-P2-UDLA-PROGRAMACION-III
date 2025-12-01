@@ -1,61 +1,51 @@
-🛻💚 Gestión de Pedidos & Flota de Camiones – UDLA (Programación III)
-👥 Integrantes
+# 🛻💚 Gestión de Pedidos & Flota de Camiones – UDLA (Programación III)
 
-Luis Morales
+## 👥 Integrantes
+- **Luis Morales**
+- **Emily Mullo**
+- **Lucas Karlsson**
+- **José Tituaña**
 
-Emily Mullo
+---
 
-Lucas Karlsson
+## 🚀 Descripción del Proyecto
 
-José Tituaña
+Este proyecto es una aplicación desarrollada en **Java + Swing** que permite gestionar:
 
-🚀 Descripción del Proyecto
+- 🟦 **Pedidos de recolección** hechos por clientes  
+- 🟩 **Flota de camiones** encargados de atender los pedidos  
 
-Este proyecto es una aplicación desarrollada en Java + Swing que permite gestionar:
+Incluye validación de datos, algoritmos de ordenamiento, búsqueda binaria, recursividad, estructuras dinámicas y una interfaz gráfica intuitiva organizada por módulos.
 
-🟦 Pedidos de recolección hechos por clientes
+---
 
-🟩 Flota de camiones encargados de atender esos pedidos
+## ⚙️ Funcionalidades Principales
 
-Incluye validación de datos, algoritmos de ordenamiento, búsqueda binaria, estructuras dinámicas y una interfaz gráfica intuitiva que organiza todo por módulos.
+### 🔵 Módulo de Pedidos
+- Registrar nuevos pedidos  
+- Editar información existente  
+- Mostrar listado general  
+- Calcular peso total por tipo de material (recursivo)  
+- Mostrar siguiente pedido en cola (FIFO)  
+- Validación completa de todos los campos  
 
-⚙️ Funcionalidades Principales
-🔵 Módulo de Pedidos
+### 🟢 Módulo de Camiones
+- Registrar camiones  
+- Editar información del camión  
+- Ordenar por:
+  - **ID** (Bubble Sort)  
+  - **Capacidad** (Insertion Sort)  
+  - **Año** (Insertion Sort descendente)  
+- Enviar camión a ruta (cola de salida)  
+- Despachar el siguiente camión  
 
-Registrar nuevos pedidos
+---
 
-Editar información existente
-
-Mostrar listado general
-
-Calcular peso total por material (recursivo)
-
-Siguiente pedido en cola (FIFO)
-
-Validación estricta de datos (ID, nombre, celular, dirección, peso)
-
-🟢 Módulo de Camiones
-
-Registrar y editar camiones
-
-Ordenar la flota por:
-
-ID (Bubble Sort)
-
-Capacidad (Insertion Sort)
-
-Año (Insertion Sort Desc)
-
-Enviar camiones a ruta (cola de salida)
-
-Despachar el siguiente camión
-
-🖥️ Interfaz Gráfica
-
-Múltiples pestañas (JTabbedPane)
-
-Listas dinámicas
-
-Spinners, combos y validación visual
-
-Mensajes interactivos con JOptionPane
+## 📦 Estructura del Proyecto
+src/
+├── Camion.java
+├── PedidoRecoleccion.java
+├── GestorCamiones.java
+├── GestorPedidos.java
+└── Ventana/
+└── Ventana.java
