@@ -4,7 +4,7 @@
 - **Luis Morales**
 - **Emily Mullo**
 - **Lucas Karlsson**
-- **José Tituaña**
+- **Johan Gamboa**
 
 ---
 
